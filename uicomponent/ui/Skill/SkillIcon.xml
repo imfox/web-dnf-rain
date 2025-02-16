@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="30,30">
+  <displayList>
+    <image id="n8_kdqs" name="imgBg" src="kdqsm8tt" fileName="interface/exskillquickslot.img/0.png" pkg="174tg8kj" xy="1,1"/>
+    <image id="n1_kdqs" name="imgIcon" src="oare75n" fileName="item/iconstackable.img/0.png" pkg="174tg8kj" xy="1,1"/>
+    <image id="n11_u7cr" name="labLv" src="u7crm8uq" fileName="interface/skillbuywindow.img/60.png" pkg="174tg8kj" xy="28,2" customData="NumberLabel&#xD;align:right"/>
+    <image id="n12_u7cr" name="imgLock" src="u7crm8ve" fileName="interface/base.img/303.png" pkg="174tg8kj" xy="0,2"/>
+    <image id="n2_kdqs" name="imgLight" src="oare3fu" fileName="interface/bag/3.png" pkg="174tg8kj" xy="1,1" blend="add"/>
+    <image id="n13_di3g" name="imgEnabled" src="oare4eq" fileName="interface/0.png" pkg="174tg8kj" xy="2,2" size="26,26" alpha="0.5"/>
+    <image id="n3_kdqs" name="imgBlack" src="oare4eq" fileName="interface/0.png" pkg="174tg8kj" xy="2,2" size="26,26" alpha="0.5"/>
+    <image id="n9_kdqs" name="imgKey" src="oare3nm" fileName="interface/keyshortcut.img/0.png" pkg="174tg8kj" xy="0,0"/>
+  </displayList>
+</component>

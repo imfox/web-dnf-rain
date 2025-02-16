@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="172,92">
+  <displayList>
+    <text id="n0_wb5h" name="labTips" xy="16,10" size="142,40" fontSize="12" leading="2" autoSize="none" text=""/>
+    <component id="n1_wb5h" name="btnOk" src="p2i96" fileName="custom/Button1.xml" xy="29,58">
+      <Button title="确定" titleColor="#ffffff"/>
+    </component>
+    <component id="n2_wb5h" name="btnCancel" src="p2i96" fileName="custom/Button1.xml" xy="91,58">
+      <Button title="取消" titleColor="#ffffff"/>
+    </component>
+  </displayList>
+</component>

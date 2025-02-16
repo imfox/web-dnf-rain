@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>雨</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no, viewport-fit=cover">
+
+    <style>
+        body {
+            min-width: 800px;
+            width: 800px;
+            margin: auto;
+            height: 100%;
+            background: url('res/bg.jpg') no-repeat;
+            background-size: 100%;
+        }
+
+        #gameMain {
+            margin-top: 10%;
+            padding: auto;
+            background-color: #333;
+            background-image: url("assets/interface/nowloading/1.png");
+            border: 1px solid #333;
+            border-radius: 2px;
+            cursor: none;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="gameMain" width="800px" height="600px"> </canvas>
+
+    <script type="text/javascript">
+        if (window.Event) document.captureEvents(Event.MOUSEUP);
+        function nocontextmenu() {
+            event.cancelBubble = true
+            event.returnValue = false;
+            return false;
+        }
+        function norightclick(e) {
+            if (window.Event) {
+                if (e.which == 2 || e.which == 3)
+                    return false;
+            } else if (event.button == 2 || event.button == 3) {
+                event.cancelBubble = true
+                event.returnValue = false;
+                return false;
+            }
+        }
+        document.oncontextmenu = nocontextmenu; // for IE5+
+        document.onmousedown = norightclick; // for all others
+    </script>
+
+    <!-- 我有一只小狐狸我从来都不骑 -->
+    <script type='text/javascript'>
+        function loadScript(url, callback) {
+            var script = document.createElement('script');
+            script.type = "text/javaScript";
+            // IE和opera支持onreadystatechange
+            // safari、chrome、opera支持onload
+            if (script.readyState) {//IE
+                script.onreadystatechange = function () {
+                    if (script.readyState == "loaded"
+                        || script.readyState == "complete") {
+                        script.onreadystatechange = null;
+                        callback();
+                    }
+                };
+            } else {//其他浏览器
+                script.onload = function () {
+                    callback();
+                };
+            }
+            script.src = url;
+            document.getElementsByTagName('head')[0].appendChild(script);
+        }
+
+        let jslist = [
+            "soundjs-NEXT.min.js",
+            "audio.js",
+            "bundle.js",
+        ];
+
+        let i = 0;
+        function $load() {
+            if (i >= jslist.length) {
+                // 加载完成
+            } else {
+                loadScript(jslist[i++], $load);
+            }
+        }
+        
+        $load();
+
+    </script>
+</body>
+
+</html>

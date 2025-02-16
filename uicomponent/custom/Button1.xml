@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="56,23" extention="Button">
+  <Button/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <image id="n0_p2i9" pkg="174tg8kj" src="oare4dp" name="n0" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n1_p2i9" pkg="174tg8kj" src="oare4dl" name="n1" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n2_p2i9" pkg="174tg8kj" src="oare4do" name="n2" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n3_p2i9" pkg="174tg8kj" src="oare4di" name="n3" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <text id="n4_p2i9" name="title" xy="0,0" size="56,23" fontSize="12" autoSize="none" align="center" vAlign="middle" singleLine="true">
+      <relation target="" sidePair="width,height"/>
+    </text>
+  </displayList>
+</component>

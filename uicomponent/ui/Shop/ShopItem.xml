@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="165,57">
+  <displayList>
+    <image id="n0_kdqs" name="bg" src="oare4bi" fileName="interface/shop_slot.img/0.png" pkg="174tg8kj" xy="0,0"/>
+    <image id="n1_kdqs" name="imgPriceBg" src="oare4be" fileName="interface/shop_slot.img/4.png" pkg="174tg8kj" xy="82,38" group="n5_kdqs"/>
+    <image id="n3_kdqs" name="imgPrice" src="oare3gb" fileName="interface/buyitem.img/1.png" pkg="174tg8kj" xy="142,38" size="14,14" group="n5_kdqs"/>
+    <text id="n6_kdqs" name="labPrice" xy="87,39" size="52,16" group="n5_kdqs" fontSize="12" color="#ffffff" align="right" autoSize="none" text="999"/>
+    <group id="n5_kdqs" name="gPrice" xy="82,38" size="75,17" customData="Box&#xD;touchThrough:true" advanced="true"/>
+    <text id="n7_kdqs" name="labCount" xy="40,21" size="52,16" fontSize="12" color="#ffffff" autoSize="none" text=""/>
+    <image id="n2_kdqs" name="imgLight" src="oare4bh" fileName="interface/shop_slot.img/1.png" pkg="174tg8kj" xy="1,1"/>
+    <text id="n8_kdqs" name="labName" xy="40,7" size="117,16" fontSize="12" color="#ffffff" autoSize="none" text="无色小晶块"/>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="216,21">
+  <displayList>
+    <image id="n13_r870" name="imgBg" src="r8708do" fileName="interface/windowcommon.img/190.png" pkg="174tg8kj" xy="0,0"/>
+    <image id="n8_r870" name="imgType" src="q4xs8d9" fileName="interface/quest/quest_tag.img/0.png" pkg="174tg8kj" xy="21,3"/>
+    <image id="n7_r870" name="imgLight" src="r8708dm" fileName="interface/windowcommon.img/47.png" pkg="174tg8kj" xy="0,0" visible="false"/>
+    <text id="n9_r870" name="labTitle" xy="66,4" size="150,18" fontSize="12" color="#ff8200" autoSize="none" text="这是任务的标题"/>
+    <image id="n11_r870" name="imgGoBg" src="q4xs8a3" fileName="interface/quest/reformquestwindow.img/10.png" pkg="174tg8kj" xy="195,6"/>
+    <image id="n12_r870" name="imgGo" src="q4xs89v" fileName="interface/quest/reformquestwindow.img/9.png" pkg="174tg8kj" xy="195,6"/>
+    <image id="n14_jsaw" name="btn" src="jsaw8dr" fileName="interface/windowcommon.img/191.png" pkg="174tg8kj" xy="5,5"/>
+  </displayList>
+</component>
