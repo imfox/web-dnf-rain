@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="800,600">
-  <displayList>
-    <image id="n0_huq5" name="imgBlack" src="oare4eq" fileName="interface/0.png" pkg="174tg8kj" xy="0,0" size="800,600"/>
-    <image id="n1_huq5" name="n1" src="oare3oc" fileName="interface/nowloading/3.png" pkg="174tg8kj" xy="630,505"/>
-    <text id="n2_huq5" name="labProgress" xy="694,484" size="100,16" fontSize="12" color="#ffffff" align="right" autoSize="none" text="100/100"/>
-  </displayList>
-</component>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="294,332">
-  <displayList>
-    <component id="n0_8lax" name="btnHelp" src="8laxn8" fileName="ui/Setting/comp/btnHelp.xml" xy="30,260"/>
-    <component id="n1_8lax" name="btnKey" src="8laxna" fileName="ui/Setting/comp/btnKey.xml" xy="90,260"/>
-    <component id="n2_8lax" name="btnQuit" src="8laxn9" fileName="ui/Setting/comp/btnQuit.xml" xy="210,260"/>
-    <component id="n3_8lax" name="btnSetting" src="8laxnb" fileName="ui/Setting/comp/btnSet.xml" xy="150,260"/>
-  </displayList>
-</component>

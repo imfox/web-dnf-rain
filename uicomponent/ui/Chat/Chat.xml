@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="800,600">
-  <displayList>
-    <image id="n1_8lax" name="imgBg" src="oare3gp" fileName="interface/chat/0.png" pkg="174tg8kj" xy="0,0" group="n2_8lax"/>
-    <graph id="n0_8lax" name="bar" xy="4,5" size="9,114" group="n2_8lax" customData="VerticalScrollBar" type="rect"/>
-    <text id="n3_8lax" name="lab" xy="17,6" size="297,113" group="n2_8lax" fontSize="12" color="#e6c89b" leading="2" autoSize="none" strokeColor="#000000" text="&#xA;"/>
-    <group id="n2_8lax" name="panel" xy="0,0" size="317,123" advanced="true"/>
-  </displayList>
-</component>
